@@ -1,0 +1,12 @@
+import OEISOpen.A219692.Bridge
+
+#check OEISOpen.A219692.bridgePolynomial_coeff
+#check OEISOpen.A219692.SpecializedTransform
+#check OEISOpen.A219692.bridge_of_specialized_transform
+#check OEISOpen.A219692.normalized_recurrence_of_specialized_transform
+#print axioms OEISOpen.A219692.coeff_one_add_three_X_pow
+#print axioms OEISOpen.A219692.bridge_polynomial_term_supported
+#print axioms OEISOpen.A219692.bridge_polynomial_term_unsupported
+#print axioms OEISOpen.A219692.bridgePolynomial_coeff
+#print axioms OEISOpen.A219692.bridge_of_specialized_transform
+#print axioms OEISOpen.A219692.normalized_recurrence_of_specialized_transform

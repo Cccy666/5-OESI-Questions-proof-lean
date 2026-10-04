@@ -1,0 +1,41 @@
+name = "firstlean"
+version = "0.1.0"
+keywords = ["math"]
+defaultTargets = ["OEISOpen", "A006343", "A089073", "A150500", "A219692"]
+
+[leanOptions]
+pp.unicode.fun = true # pretty-prints `fun a ↦ b`
+relaxedAutoImplicit = false
+weak.linter.mathlibStandardSet = true
+maxSynthPendingDepth = 3
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.34.0-rc2"
+
+[[lean_lib]]
+name = "OEISOpen"
+roots = ["OEISOpen.A371753.Main"]
+globs = ["OEISOpen.A371753.+"]
+
+[[lean_lib]]
+name = "A006343"
+roots = ["OEISOpen.A006343.Main"]
+globs = ["OEISOpen.A006343.+"]
+
+[[lean_lib]]
+name = "A089073"
+roots = ["OEISOpen.A089073.Audit"]
+globs = ["OEISOpen.A089073.+"]
+
+[[lean_lib]]
+name = "A219692"
+roots = ["OEISOpen.A219692.Audit"]
+globs = ["OEISOpen.A219692.+"]
+
+
+[[lean_lib]]
+name = "A150500"
+roots = ["OEISOpen.A150500.Audit"]
+globs = ["OEISOpen.A150500.+"]

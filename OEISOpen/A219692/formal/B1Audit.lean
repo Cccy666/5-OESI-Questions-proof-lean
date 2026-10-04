@@ -1,0 +1,10 @@
+import OEISOpen.A219692.CoefficientRepresentation
+
+#check OEISOpen.A219692.original_coefficient_representation
+#print axioms OEISOpen.A219692.coeff_oneAddX_pow
+#print axioms OEISOpen.A219692.inverse_power_cancel_left
+#print axioms OEISOpen.A219692.coeff_original_bracket
+#print axioms OEISOpen.A219692.original_coefficient_term_factor
+#print axioms OEISOpen.A219692.coeff_original_term_supported
+#print axioms OEISOpen.A219692.coeff_original_term_unsupported
+#print axioms OEISOpen.A219692.original_coefficient_representation
