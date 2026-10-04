@@ -1,7 +1,7 @@
 # Five OEIS recurrence proofs in Lean
 
 本仓库公开五题的 Lean 证明源码、数学证明正文及可复现的构建和公理检查入口。Lean / Mathlib 固定于 `v4.34.0-rc2`，依赖版本见 `lake-manifest.json`。
-
+使用GPT-6-Astra-ultra以及GPT-6-Pro完成证明及形式化整理，消耗约Pro x20一周额度。
 | 题号与证明正文 | 最终 Lean 定理 | 已完成范围 |
 |---|---|---|
 | [A006343](OEISOpen/A006343/Proof.md) | `OEISOpen.A006343.recurrence_of_algebraic` | 从指定代数生成函数及两个初值推出六项递推，n≥5；原 Arkons 组合计数到生成函数的桥梁尚未形式化。 |
